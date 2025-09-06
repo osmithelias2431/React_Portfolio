@@ -1,5 +1,9 @@
 import './App.css'
 import Typewriter from 'typewriter-effect';
+import NellyImage from './assets/Nelly_Profile_Pic.JPG';
+import TravelImage from './assets/travel_image.jpg';
+import NailImage from './assets/my_nail_image.jpg';
+import AppImage from './assets/app_image.png';
 
 function App() {
   // Hamburger Menu
@@ -89,7 +93,7 @@ const toggleMenu = (e) => {
     <section id="about">
         <h2 id="about-header">About Me</h2>
         <div className="about-content">
-            <img src="src/assets/Nelly_Profile_Pic.JPG" alt="Oneilia's Profile Picture" className="profile-pic"/>
+            <img src={NellyImage} alt="Oneilia's Profile Picture" className="profile-pic"/>
             <div className="about-text">
                 <p><strong>A motivated woman building knowledge about software.</strong>
                 <br/><br/>I'm a software development trainee studying Javascript and Python. I'm eager to learn more about creating eye-catching webpages.</p>   
@@ -109,7 +113,7 @@ const toggleMenu = (e) => {
             <div className="project-container">
                 <div className="project-wrapper">
                     <div className="card">
-                        <img src="src/assets/travel_image.jpg" alt="Travel Review App" className="project-image"/>
+                        <img src={TravelImage} alt="Travel Review App" className="project-image"/>
                         <div className="card-content">
                             <h2>Travel Review App</h2>
                             <p className="card-text">An app to review travel destinations built with Javascript.</p>
@@ -117,7 +121,7 @@ const toggleMenu = (e) => {
                         </div>
                     </div>
                     <div className="card">
-                        <img src="src/assets/my_nail_image.jpg" alt="Nail Selector App" className="project-image"/>
+                        <img src={NailImage} alt="Nail Selector App" className="project-image"/>
                         <div className="card-content">
                             <h2>Nail Selector App</h2>
                             <p className="card-text">An app that assists in choosing nail designs.</p>
@@ -125,7 +129,7 @@ const toggleMenu = (e) => {
                         </div>
                     </div>
                     <div className="card">
-                        <img src="src/assets/app_image.png" alt="App Inventor" className="project-image"/>
+                        <img src={AppImage} alt="App Inventor" className="project-image"/>
                         <div className="card-content">
                             <h2>App Inventor</h2>
                             <p className="card-text">Idea app.</p>

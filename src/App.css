@@ -109,7 +109,7 @@ box-shadow:
     background-color: #739fb4;
     width: 100vw;
     height: 110vh;
-    background-image: url(src/assets/computer_background.jpg);
+    background-image: url(./assets/computer_background.jpg);
     background-size: cover;
     animation: moveBackground 20s linear infinite;
     margin-top: -100px;
